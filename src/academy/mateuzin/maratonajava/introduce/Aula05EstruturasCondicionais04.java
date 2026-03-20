@@ -14,12 +14,12 @@ public class Aula05EstruturasCondicionais04 {
         double valorImposto;
 
         if (salarioAnual <= 34.712) {
-            salarioAnual = salarioAnual * impostoInicial;
+            valorImposto = salarioAnual * impostoInicial;
         } else if (salarioAnual >= 34.713 && salarioAnual <= 68.587) {
-            salarioAnual = salarioAnual * impostoSecundario;
+            valorImposto = salarioAnual * impostoSecundario;
         } else {
-            salarioAnual = salarioAnual * impostoFinal;
+            valorImposto = salarioAnual * impostoFinal;
         }
-        System.out.println("O valor é: " +salarioAnual);
+        System.out.println("O valor é: " +valorImposto);
     }
 }
